@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #a49eb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tools {
+    margin-bottom: 20px;
+  }
+  
+  button, input[type="file"] {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  
+  canvas {
+    border: 1px solid #119fb8;  /*borda */
+    width: 600px;
+    height: 400px;
+  }
+  
+  .download button {
+    padding: 10px 20px;
+    background-color: #4c53af;  /*fundo btn */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .download button:hover {
+    background-color: #6066a5;  /*efeito hover*/
+  }
+
+  .share button{
+  padding: 10px 26px;
+  background-color: #4c53af;  /*fundo btn */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.share button:hover {
+  background-color: #6066a5;  /*efeito hover*/
+}
+
+.tools button{
+  padding: 10px 26px;
+  background-color: #4c53af;  /*fundo btn */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+.tools button:hover{
+  background-color: #6066a5; /*hover*/
+}

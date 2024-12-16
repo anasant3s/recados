@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PROJETO 1 </title>
+</head>
+<body>
+    <div class="container">
+        <h1>crie seu recado</h1>
+        <div class="editor">
+          <!-- personalização -->
+          <div class="tools">
+            <button onclick="addText()">Adicionar Texto</button>
+            <input type="file" id="imageUpload" onchange="addImage(event)" />
+            <button onclick="changeBackgroundColor()">Alterar Cor de Fundo</button>
+          </div>
+          <canvas id="canvas"></canvas>
+        </div>
+        <div class="download">
+          <button onclick="downloadImage()">Fazer download</button>
+        </div>
+        <div class="share">
+          <button onclick="share()">Compartilhar</button>
+        </div>
+      </div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
